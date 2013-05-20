@@ -1,0 +1,23 @@
+{
+    "name": "phonegap-img",
+    "version": "0.0.1",
+	"author": "makesites",
+	"homepage": "https://github.com/makesites/phonegap-img",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/makesites/phonegap-img.git"
+	},
+	"licenses": [
+	{
+		"type": "MIT license",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}
+	],
+    "engine" : {
+        "node" : ">=0.8.x"
+    },
+	"dependencies" : {
+	}, 
+    "devDependencies" : {
+    }
+}
