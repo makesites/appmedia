@@ -1,11 +1,11 @@
-# Phonegap Img
+# Appmedia
 
-A build script to automate the generation of the ridicilusly big number of image assets to cover all the supported resolutions... 
+A build script to automate the generation of the ridicilusly big number of image assets to cover all the supported resolutions...
 
 ## Install
 
 ```
-npm install phonegap-img
+npm install appmedia
 ```
 
 
@@ -13,16 +13,16 @@ npm install phonegap-img
 
 Create a ```build.js``` with the following:
 ```
-var screens = require("phonegap-img");
+var appmedia = require("appmedia");
 
-screens.set({ output : "./img" }); // default value
+appmedia.set({ output : "./img" }); // default value
 
-screens.icon("path/to/source/icon");
+appmedia.icon("path/to/source/icon");
 
-screens.splash("path/to/source/icon");
+appmedia.splash("path/to/source/icon");
 
 // renders the xml of the created assets
-screens.render()
+appmedia.output()
 
 ```
 
