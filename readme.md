@@ -10,7 +10,7 @@ Using NPM:
 ```
 npm install appmedia
 ```
-Note that this module relies on imagemagick, which should be already installed. For Mac OSX users that's as simple as:
+The image manipulation is done using ImageMagick, which should be already installed. For Mac OSX users that's as simple as:
 ```
 brew install imagemagick
 ```
@@ -25,18 +25,19 @@ var appmedia = require("appmedia");
 appmedia.icon("path/to/source/icon");
 
 appmedia.splash("path/to/source/image");
-
 ```
-It will output the new image assets in a folder "./img" relative to the location of the source image.
+Both ```icon``` and ```splash``` will output the new image assets in a folder "./img", relative to the location of the source image.
+
+Note that it's best if the source images have a significantly better resolution than the copies produced - ex: source icon ~2k, source splash ~4k.
 
 
 ## Output sizes
 
-The sizes generated are an aggregated set after researching into the official documentation of device manufacturers. Although only a subset of these assets are used by any given device, we must generate all of them to cover different cases.
+The image sizes generated are an aggregated set after researching into the official documentation of device manufacturers. Although only a subset of these assets are used by any given device, we must generate all of them to cover different cases.
 
 ### Icons
 
-These are square images of a set number of pixels:
+These are square images (in pixels):
 
 ```
 16, 30, 32, 48, 57, 60, 64, 72, 114, 128, 144, 512, 1024
