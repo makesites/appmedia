@@ -1,6 +1,6 @@
 {
-    "name": "appmedia",
-    "version": "0.0.1",
+	"name": "appmedia",
+	"version": "0.0.1",
 	"author": "makesites",
 	"homepage": "https://github.com/makesites/appmedia",
 	"repository": {
@@ -13,11 +13,12 @@
 		"url": "http://www.makesites.org/licenses/MIT"
 	}
 	],
-    "engine" : {
-        "node" : ">=0.8.x"
-    },
-	"dependencies" : {
+	"engine" : {
+		"node" : ">=0.8.x"
 	},
-    "devDependencies" : {
-    }
+	"dependencies" : {
+		"imagemagick": "0.1.3"
+	},
+	"devDependencies" : {
+	}
 }
