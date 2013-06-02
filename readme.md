@@ -1,6 +1,6 @@
 # Appmedia
 
-A node module to automate the generation of the ridicilusly big number of image assets to cover all the supported resolutions...
+A node module to automate the generation of the ridiculously big number of image assets to cover all the supported resolutions...
 
 
 ## Install
