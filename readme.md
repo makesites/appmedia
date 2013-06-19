@@ -40,7 +40,7 @@ The image sizes generated are an aggregated set after researching into the offic
 These are square images (in pixels):
 
 ```
-16, 30, 32, 48, 57, 60, 64, 72, 114, 128, 144, 512, 1024
+16, 30, 32, 36, 48, 57, 60, 62, 64, 72, 96, 114, 128, 144, 512, 1024
 ```
 
 ### Splash screens
@@ -48,7 +48,10 @@ These are square images (in pixels):
 These are the loading screens, and are tightly tied to the resolution of the screen:
 
 ```
+200x320
+250x250
 320x480
+480x320
 480x800
 480x854
 540x960
@@ -59,14 +62,17 @@ These are the loading screens, and are tightly tied to the resolution of the scr
 640x1136
 720x720
 720x1280
+768x1004
 768x1024
 768x1280
 800x1280
 868x420
+960x640
 1080x1920
 1024x600
 1024x768
 1116x540
+1136x640
 1200x1920
 1280x800
 1366x720
