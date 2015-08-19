@@ -40,7 +40,7 @@ The image sizes generated are an aggregated set after researching into the offic
 These are square images (in pixels):
 
 ```
-16, 30, 32, 36, 48, 57, 60, 62, 64, 72, 96, 114, 128, 144, 512, 1024
+16, 30, 32, 36, 48, 57, 60, 62, 64, 72, 76, 87, 96, 114, 120, 128, 144, 152, 171, 180, 512, 1024
 ```
 
 ### Splash screens
@@ -62,6 +62,7 @@ These are the loading screens, and are tightly tied to the resolution of the scr
 640x1136
 720x720
 720x1280
+750x1334
 768x1004
 768x1024
 768x1280
@@ -74,6 +75,7 @@ These are the loading screens, and are tightly tied to the resolution of the scr
 1116x540
 1136x640
 1200x1920
+1242x2208
 1280x800
 1366x720
 1536x2008
@@ -81,6 +83,7 @@ These are the loading screens, and are tightly tied to the resolution of the scr
 1920x1080
 2048x1496
 2048x1536
+2208x1242
 2560x1600
 ```
 
@@ -90,22 +93,22 @@ These are the loading screens, and are tightly tied to the resolution of the scr
 * Create config files for Phonegap & Firefox OS: appmedia.render()
 
 
-## Credits
-
-Created by [Makis Tracend](http://github.com/tracend)
-
 ### Trivia
 
 * Inspired by [web2splash](https://github.com/mwbrooks/web2splash)
 
 * Splash screen sizes were partially calculated using [Screensiz.es](http://screensiz.es/)
 
-* Splash photo in the examples by [Sandra S.](http://www.flickr.com/photos/rapunzel2901/)
+
+## Credits
+
+Initiated by [Makis Tracend](http://github.com/tracend)
+
+Splash photo in the examples by [Sandra S.](http://www.flickr.com/photos/rapunzel2901/)
+
+Distributed through [Makesites.org](http://makesites.org)
 
 
 ### License
 
-Distributed through [Makesites.org](http://makesites.org)
-
 Released under the [MIT license](http://makesites.org/licenses/MIT)
-
