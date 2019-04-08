@@ -14,7 +14,7 @@
 	}
 	],
 	"engine" : {
-		"node" : ">=0.8.x"
+		"node" : ">=10.x.x"
 	},
 	"dependencies" : {
 		"imagemagick": "0.1.3"
